@@ -1,6 +1,6 @@
 @font-face {
-   	font-family: 'Extra Bold';
-   	src: url('Mulish-ExtraBold.ttf');
+	font-family: 'Extra Bold';
+	src: url('Mulish-ExtraBold.ttf');
 }
 
 @font-face {
@@ -20,8 +20,8 @@
 
 h1 {
 	font-family: 'Extra Bold';
- 	margin-top:0px;
- 	margin-left: 0px;
+	margin-top:0px;
+	margin-left: 0px;
 	margin-bottom:0px;
 }
 
@@ -29,7 +29,7 @@ h2 {
 	font-family: 'More Bold';
 	margin-top: 0px;
 	margin-left: 0px;
- 	margin-bottom:20px;
+	margin-bottom:20px;
 }
 
 h3 {
@@ -97,14 +97,13 @@ body {
 	margin-left: 0px;
 	background-color: black;
 	height:12vh;
-  position: fixed; /* Make it stick/fixed */
-  top: 0; /* Stay on top */
+  position: fixed;
+  top: 0;
   left: 0;
-  width: 100%; /* Full width */
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  width: 100%;
+  transition: top 0.3s;
 }
 
-/* Style the navbar links */
 #topbannerright a {
 	float: right;
 	float: center;
@@ -145,38 +144,3 @@ body {
 	padding-left: 9vw;
 	padding-top: 1vh;
 }
-
-/*.topnav {
-	overflow: hidden;
-	height: 60px;
-	width: 100%;
-	position: fixed;
-	z-index: 1;
-	top: 100px;
-	left: 0;
-	background-color: black;
-	overflow-x: hidden;
-	padding-top: 0px;
-}
-
-.topnav a {
-		float: left;
-		padding: 6px 10px 6px 10px;
-		padding: 1vh 3vw;
-	  text-decoration: none;
-	  font-size: 25px;
-	  color: white;
-	  background-color: black;
-	  display: block;
-}
-
-.topnav a:hover {
-	background-color: #ADC7FF;
-	color: black;
-}
-
-.topnav a.active {
-	background-color: gainsboro;
-	color: black;
-}
-*/
